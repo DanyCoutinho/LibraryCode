@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/* Definir variáveirs com :root {} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*----------GERAL----------*/
+button {
+    border: 3px solid lightblue;
+}
+
+/*----------HEADER----------*/
+header {
+    background-color: rgb(255, 190, 190);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+header > div > nav {
+    display: inline;
+}
+
+button {
+    padding: 5px;
+}
+
+nav#languagemenu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    margin-left: 100px;
+}
+
+nav#socialmenu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    margin-right: 100px;
+}
+
+nav#langprogmenu {
+    margin: 10px;
+}
+
+header > h1 {
+    margin-top: 10px;
+}
+
+
+/*----------MAIN----------*/
+main {
+    background-color: aqua;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+main > section > article {
+    display: inline-block;
+}
+
+main > section > div#black{
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+}
+
+main > section > div > h2 {
+    margin-bottom: 10px;
+}
+
+main > section > div > p {
+    margin-bottom: 10px;
+}
+
+/*#btnControl {
+    display: none;
+}
+
+.btn {
+    width: 600px;
+    height: 20px;
+    background: silver;
+    border-radius: 5px;
+    padding: 1px 3px;
+    box-shadow: 1px 1px 1px #000;
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);
+    font-family: arial;
+    font-size: 12px;
+    line-height:20px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to bottom, #c3e3fa, #a5defb);
+}
+
+
+.btn:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+    outline: 1px solid black;
+    background-image: linear-gradient(to top, #f4f5f5, #dfdddd);
+}
+
+label.btn > div, img, p{
+    display: none;
+}
+
+#btnControl:checked + label > div{
+    display: block;
+    background-color: aquamarine;
+    width: auto;
+}
+
+#btnControl:checked + label > img{
+    display: block;
+    align-items: center;
+    background-color: aqua;
+}
+
+#btnControl:checked + label > p{
+    display: block;
+    background-color: aqua;
+}*/
+
+/*----------FOOTER----------*/
+footer {
+    background-color: beige;
+}
